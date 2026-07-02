@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-02T22:06:00 IST" name="testng" finished-at="2026-07-02T22:06:16 IST" duration-ms="16285">
+    <groups>
+    </groups>
+    <test started-at="2026-07-02T22:06:00 IST" name="FFTest" finished-at="2026-07-02T22:06:16 IST" duration-ms="16285">
+      <class name="testscript.ManageCategoryTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@69ee81fc]" started-at="2026-07-02T22:06:00 IST" name="browserInitialization" finished-at="2026-07-02T22:06:09 IST" duration-ms="9283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="addCategorySuccessfully()[pri:0, instance:testscript.ManageCategoryTest@69ee81fc]" started-at="2026-07-02T22:06:09 IST" name="addCategorySuccessfully" description="Verifying adding a new catefory in Manage Category Page" finished-at="2026-07-02T22:06:15 IST" duration-ms="5605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategorySuccessfully -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@69ee81fc]" started-at="2026-07-02T22:06:15 IST" name="browserQuit" finished-at="2026-07-02T22:06:16 IST" duration-ms="1315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCategorySuccessfully status=SUCCESS method=ManageCategoryTest.addCategorySuccessfully()[pri:0, instance:testscript.ManageCategoryTest@69ee81fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testscript.ManageCategoryTest -->
+    </test> <!-- FFTest -->
+  </suite> <!-- testng -->
+</testng-results>
