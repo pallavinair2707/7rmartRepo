@@ -7,19 +7,14 @@
   <test thread-count="5" name="FFTest">
   	<parameter name="browser" value="FireFox"></parameter>
     <classes>
-     <!-- 
+     <class name="testscript.ManageCategoryTest"/>
       <class name="testscript.AdminUsersTest"/>
       <class name="testscript.ManageContactTest"/>
       <class name="testscript.ManageNewsTest"/>
       <class name="testscript.ManageFooterTextTest"/>
       <class name="testscript.LogoutTest"/>
+      <class name="testscript.LoginTest"></class>
       
-      <class name="testscript.LoginTest">
-      <methods>
-      <include name="verifyLoginWithInvalidUserName"></include>
-      </methods>
-      </class>-->
-      <class name="testscript.ManageCategoryTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
